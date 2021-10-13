@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*==================================================================================== R E S E T ========================================================================================*/
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 55px;
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+input {
+  outline: none !important;
+  color: white;
+  padding: 5px 5px 5px 10px;
+  font-size: 17px;
+  margin-top: 0.4em;
+  left: 35%;
+  position: absolute;
+  background-color: rgb(19, 19, 19);
+  border: 1px solid rgb(0, 0, 0);
+  width: 30%;
+  height: 30px;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 120, 175);
+}
+img {
+  cursor: pointer;
+}
+.logo {
+  object-fit: cover;
+  padding: 12px 0px;
+  cursor: pointer;
+}
+.menubar {
+  padding-top: 12px;
+  margin-left: 2px;
+}
+.search {
+  position: absolute;
+  left: 66%;
+  margin-top: 8px;
+}
+
+.main {
+  padding-left: 6em;
+  padding-top: 1.5em;
+}
+.mic {
+  position: absolute;
+  left: 69.8%;
+  margin-top: 8px;
+}
+
+.hashtags {
+  color: rgb(6, 155, 255);
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+
+.title {
+  color: white;
+  font-size: 23px;
+  padding-top: 5px;
+}
+.stats {
+  color: gray;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+hr {
+  border: 0.5px solid rgb(59, 59, 59);
+  float: left;
+  width: 77rem;
+}
+p {
+  color: white;
+}
